@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.main-logo {
+    z-index: 30;
+}
+
+.logo {
+    display: block;
+    width: 3.75 em;
+    height: 1.75 em;
+    padding: 25px;
+}
+
+.main-menu {
+    width: 100%;
+}
+
+.main-menu-list_ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.main-menu a {
+    font-size: 1.25rem;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+}
+
+
+.main-menu-list-li-more a {
+    color: #FF764D;
+}
+
+.main-menu-list-li-Try a {
+    margin-left: 25rem;
+    color: blue;
+}
+
+.main-menu-list-li-log a {
+    font-size: 1rem;
+}
